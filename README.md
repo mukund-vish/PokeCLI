@@ -157,4 +157,6 @@ This was built as a hands-on way to go beyond tutorial-level Python — designin
 
 ## 📄 License
 
-This project is open source. Add a [LICENSE](LICENSE) file (e.g. MIT) if you'd like to make the terms explicit.
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE) — feel free to use, modify, and learn from it.
