@@ -149,14 +149,6 @@ PokeCLI/
 
 ---
 
-## 🚧 Known Limitations (Prototype Scope)
-
-- Balancing (damage formulas, catch/kill rates, EXP curves) is functional but not fully tuned
-- Single save slot — starting a new game after a reset overwrites the previous save
-- No graphical or sound elements — purely console-based by design
-
----
-
 ## 🙋 Why This Project?
 
 This was built as a hands-on way to go beyond tutorial-level Python — designing a system with persistent state, multiple interacting components (battles, leveling, exploration, an item/effect system, saves), and real data-driven content, without relying on any external game framework.
