@@ -1,14 +1,12 @@
-# PokeCLI 🎮🔥
+# PokéCLI 🎮
 
 A **console-based Pokémon game** built entirely in Python — a prototype built to demonstrate solid grasp of core and intermediate Python concepts (OOP, data-driven design, JSON persistence, and game-state management) through a fully playable, text-driven RPG loop.
-
-> ⚠️ This is a **prototype / learning project**, not a finished game. It has no graphics by design — the point was to build a real, non-trivial system in pure Python rather than isolated scripts.
 
 ---
 
 ## 📖 About
 
-PokeCLI is a turn-based, menu-driven Pokémon game that runs entirely in the terminal. You create a character, save your progress to disk, pick a starter, then train, explore, shop, and manage your party — all through simple numbered prompts.
+**PokeCLI** is a turn-based, menu-driven Pokémon game that runs entirely in the terminal. You create a character, save your progress to disk, pick a starter, then train, explore, shop, and manage your party — all through simple numbered prompts.
 
 Under the hood it's more than a menu loop: Pokémon have real stat formulas, growth curves, evolutions, and status effects; wild encounters are weighted by rarity and player level; trainer battles use a lightweight AI to pick moves and switch Pokémon; and everything is serialized to and from a JSON save file.
 
