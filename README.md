@@ -2,8 +2,6 @@
 
 A **console-based Pokémon game** built entirely in Python — a prototype built to demonstrate a solid grasp of core and intermediate Python concepts: OOP, data acquisition & cleaning, data-driven game design, JSON persistence, and game-state management, through a fully playable, text-driven RPG loop.
 
-> ⚠️ This is a **prototype / learning project**, not a finished game. It has no graphics by design — the point was to build a real, non-trivial system in pure Python rather than isolated scripts.
-
 ---
 
 ## 📖 About
@@ -154,7 +152,6 @@ PokeCLI/
 
 ## 🚧 Known Limitations (Prototype Scope)
 
-- Balancing (damage formulas, catch/kill rates, EXP curves) is functional but not fully tuned
 - Single save slot — starting a new game after a reset overwrites the previous save
 - No graphical or sound elements — purely console-based by design
 
