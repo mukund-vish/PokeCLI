@@ -157,6 +157,26 @@ PokeCLI/
 
 ---
 
+## 🧪 Testing
+
+The project includes a `pytest` suite covering the core game math — leveling curves, EXP distribution, stat calculation, fainting/damage, and evolution logic.
+
+### Setup
+```bash
+pip install pytest
+```
+
+### Running the tests
+```bash
+pytest tests/ -v
+```
+
+A `conftest.py` at the project root adds the repo to Python's import path, so tests can import modules like `leveling.py` and `pokemon.py` directly.
+
+### What's covered
+- `tests/test_leveling.py` — EXP curve formulas across level brackets, the player/Pokémon growth-rate scaling, level-gap battle modifiers, and EXP distribution across a party (including the multi-survivor share penalty)
+- `tests/test_pokemon.py` — stat calculation formulas, fainting/damage edge cases, level-up behavior, evolution triggering at the correct level, save/load serialization, and item effect application (buffs, healing, status cures)
+
 ## 🙋 Why This Project?
 
 This was built as a hands-on way to go beyond tutorial-level Python — covering the full stack of a small game: fetching and cleaning real-world API data, designing persistent state, and building multiple interacting systems (battles, leveling, exploration, an item/effect system, saves), without relying on any external game framework.
